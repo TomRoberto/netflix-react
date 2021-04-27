@@ -1,9 +1,10 @@
 import Image from "./Image";
+import logo from "../assets/img/logo-netflix.png";
 
 const Header = (props) => {
   return (
     <header>
-      <Image src="../assets/img/logo-netflix.png" className="logo-netflix" />
+      <Image src={logo} className="logo-netflix" />
     </header>
   );
 };
